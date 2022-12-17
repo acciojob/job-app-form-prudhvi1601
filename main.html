@@ -7,37 +7,37 @@
 </head>
 
 <body>
-	<form action="" method="name email age dob password laptop">
-		<label for="name" >Name*</label>
-		<input type="text" placeholder="Enter your name">
+	<form action="" method="*">
+		<label for="name" >Name*</label> 
+		<input type="name" id="name" placeholder="Enter your name" required>
 		<br><br>
 		<label for="email" >Email*</label>
-		<input type="text" placeholder="Enter your email">
+		<input type="email" id="email" placeholder="Enter your email" required>
 		<br><br>
 		 <label for="gender">Gender*</label>
-		 <input  type="radio" name="gender" value="Male">
+		 <input  type="radio" name="gender" value="Male" required>
 		 <label for="male">Male</label>
-		 <input type="radio" name="gender" value="Female" >
+		 <input type="radio" name="gender" value="Female" required>
 		 <label for="female">Female</label>
 		 <br><br>
 		 <label for="laptop" >Laptop Brands</label>
-		<input type="checkbox" name="Apple" value="Apple">
+		<input type="checkbox" id="laptop" name="Apple" value="Apple">
 		<label for="apple">Apple</label>
-		<input type="checkbox" name="Asus" value="Asus">
+		<input type="checkbox" id="laptop" name="Asus" value="Asus">
 		<label for="asus">Asus</label>
-		<input type="checkbox" name="HP" value="HP">
+		<input type="checkbox" id="laptop" name="HP" value="HP">
 		<label for="hp">HP</label>
 		<br><br>
 		<label for="age" >Age*</label>
-		<input type="number" placeholder="Enter your age">
+		<input type="number" id="age" placeholder="Enter your age" required>
 		<br><br>
 		<label for="dob">DOB*</label>
-		<input type="date" id="month" value="year">
+		<input type="date" id="dob" id="month" value="year" required>
 		<br><br>
 		<label for="password" >Password*</label>
-		<input type="password" placeholder="Enter your password">
+		<input type="password" placeholder="Enter your password" required>
 		<br><br>
-		<label for="id">Portfolio id:</label> 
+		<label for="text" id="portfolio">Portfolio URL:</label> 
 		<input type="link">
 		<br><br>
 		<button class="submit">Submit</button>
